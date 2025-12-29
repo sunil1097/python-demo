@@ -1,4 +1,5 @@
 
+import os
 import pytest
 import json 
 
@@ -17,5 +18,8 @@ def base_url(config):
 
 
 @pytest.fixture(scope="session")
-def api_key(config):
-    return config["api_key"]
+def api_key():
+    key = os.getenv("OMDB_API_KEY")
+    if not key :
+        raise RuntimeError("OMDB_API_KEY environment variable not set")
+    return key 
