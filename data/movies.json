@@ -1,18 +1,21 @@
 [
   {
     "title": "Inception",
-    "expected": "True"
+    "expected_response": "True",
+    "schema": "schemas/movie_success_schema.json",
+    "type": "smoke"
   },
   {
     "title": "Interstellar",
-    "expected": "True"
+    "expected_response": "True",
+    "schema": "schemas/movie_success_schema.json",
+    "type": "regression"
   },
   {
-    "title": "Batman",
-    "expected": "True"
-  },
-  {
-    "title": "SomeRandomMovieThatDoesNotExist",
-    "expected": "False"
+    "title": "ThisMovieDoesNotExist123",
+    "expected_response": "False",
+    "expected_error": "Movie not found!",
+    "schema": "schemas/movie_error_schema.json",
+    "type": "regression"
   }
 ]

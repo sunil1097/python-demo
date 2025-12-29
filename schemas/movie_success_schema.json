@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": ["Title", "Year", "Response"],
+  "properties": {
+    "Title": { "type": "string" },
+    "Year": { "type": "string" },
+    "Response": { "type": "string" }
+  }
+}
