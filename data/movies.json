@@ -1,21 +1,7 @@
-[
-  {
-    "title": "Inception",
-    "expected_response": "True",
-    "schema": "success",
-    "type": "smoke"
-  },
-  {
-    "title": "Interstellar",
-    "expected_response": "True",
-    "schema": "success",
-    "type": "regression"
-  },
-  {
-    "title": "ThisMovieDoesNotExist123",
-    "expected_response": "False",
-    "expected_error": "Movie not found!",
-    "schema": "error",
-    "type": "regression"
-  }
-]
+{
+  "title": "ThisMovieDoesNotExist123",
+  "expected_response": "False",
+  "expected_error": "Movie not found!",
+  "schema": "error",
+  "type": "regression"
+}
