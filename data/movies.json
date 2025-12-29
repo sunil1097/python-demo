@@ -2,20 +2,20 @@
   {
     "title": "Inception",
     "expected_response": "True",
-    "schema": "schemas/movie_success_schema.json",
+    "schema": "success",
     "type": "smoke"
   },
   {
     "title": "Interstellar",
     "expected_response": "True",
-    "schema": "schemas/movie_success_schema.json",
+    "schema": "success",
     "type": "regression"
   },
   {
     "title": "ThisMovieDoesNotExist123",
     "expected_response": "False",
     "expected_error": "Movie not found!",
-    "schema": "schemas/movie_error_schema.json",
+    "schema": "error",
     "type": "regression"
   }
 ]
