@@ -28,4 +28,4 @@ jobs:
         env:
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
         run: |
-          pytest
+          python -m pytest
