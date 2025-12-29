@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Inception",
+    "expected": "True"
+  },
+  {
+    "title": "Interstellar",
+    "expected": "True"
+  },
+  {
+    "title": "Batman",
+    "expected": "True"
+  },
+  {
+    "title": "SomeRandomMovieThatDoesNotExist",
+    "expected": "False"
+  }
+]
